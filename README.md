@@ -1,6 +1,5 @@
 # Mayfair French Restaurant Analysis
 
----
 
 ## 1. Project Overview
 
@@ -19,7 +18,6 @@ After identifying nearby competitors, I conducted a manual qualitative compariso
 
 The goal of this project is to combine structured data analysis and qualitative interpretation to describe our restaurant’s position within the Mayfair French dining landscape.
 
----
 
 ## 2. Dataset Description
 
@@ -35,7 +33,7 @@ The goal of this project is to combine structured data analysis and qualitative 
 
 The dataset is structured and suitable for SQL-based filtering and aggregation.
 
----
+
 
 ## 3. Study Area Definition
 
@@ -44,7 +42,7 @@ Mayfair was defined using a latitude range between:
 
 This boundary was based on the geographic position of my workplace to capture restaurants operating within the same local environment.
 
----
+
 
 ## 4. SQL Analysis & Results
 
@@ -60,7 +58,7 @@ This boundary was based on the geographic position of my workplace to capture re
 - Ratings are mostly **Michelin Plate**, with 1–3 Star restaurants also present.  
 - Price levels are concentrated in **premium tiers**.
 
----
+
 
 ## 5. Qualitative Comparison Framework
 
@@ -78,7 +76,7 @@ Each restaurant was evaluated based on short Michelin-style descriptions and man
 
 This step is interpretive and intended as a structured comparison rather than a statistical scoring model.
 
----
+
 
 ## 6. Positioning: Our Restaurant vs Nearby Competitors
 
@@ -94,7 +92,7 @@ In contrast, our restaurant:
 - Positions itself as contemporary and socially driven  
 - Focuses on atmosphere, accessibility, and shareable dining experience  
 
----
+
 
 ## 7. Limitations
 
