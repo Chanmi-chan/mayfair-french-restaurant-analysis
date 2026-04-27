@@ -28,14 +28,14 @@ Mayfair was defined using a latitude boundary based on the location of my workpl
 
 ## 4. SQL Analysis
 
-### 🔍 Key Findings
+### Key Findings
 
 * Total restaurants: **340**
 * French restaurants: **30 (8.8%)** → niche segment
 * French restaurants in Mayfair: **9**
 * Concentration rate: **30%** → strong clustering in a premium central area
 
-### 📈 Interpretation
+### Interpretation
 
 French cuisine represents a small but strategically concentrated segment, suggesting that Mayfair functions as a premium hub for French fine dining.
 
@@ -62,8 +62,7 @@ This framework was designed to capture both traditional Michelin evaluation sign
 * French restaurants form a niche but highly competitive segment concentrated in Mayfair
 * The area is dominated by Michelin-level fine dining with strong emphasis on chef identity and culinary prestige
 * This creates a positioning gap for non-Michelin French concepts
-
-👉 **Competing directly on prestige is less effective than differentiating through accessibility, atmosphere, and social dining experience**
+ **Competing directly on prestige is less effective than differentiating through accessibility, atmosphere, and social dining experience**
 
 ---
 
@@ -74,17 +73,6 @@ This framework was designed to capture both traditional Michelin evaluation sign
 
 ---
 
-## 🔗 Project Files
-
-* SQL queries: `/sql/analysis.sql`
-* Dataset: `/data/michelin_london.csv`
+`
 
 ---
-
-
-
-## 7. Limitations
-
-- The qualitative comparison is based on short, single-source descriptions.  
-- Interpretations are manual and not statistically validated.  
-- Future work could expand the analysis using additional review sources and structured scoring methods.
