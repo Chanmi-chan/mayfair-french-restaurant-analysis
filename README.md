@@ -1,5 +1,4 @@
-# Mayfair French Restaurant Analysis
-# 📊 Mayfair French Restaurant Market & Positioning Analysis
+# Mayfair French Restaurant Market & Positioning Analysis
 
 ---
 
