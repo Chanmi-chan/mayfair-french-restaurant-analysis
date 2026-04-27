@@ -1,96 +1,86 @@
 # Mayfair French Restaurant Analysis
+# 📊 Mayfair French Restaurant Market & Positioning Analysis
 
+---
 
 ## 1. Project Overview
 
-### French Restaurants Around Mayfair: A Structured Market and Positioning Analysis
+This project analyses the competitive structure of French restaurants in Mayfair, London, using Michelin-recognised restaurant data.
 
-I work in a French restaurant in Mayfair, London.  
-While working there, I became curious about how many Michelin-recognised French restaurants operate nearby and how our restaurant fits within this environment.
+While working at a French restaurant in Mayfair, I aimed to understand how Michelin-recognised competitors are distributed within the area and how a non-Michelin concept can be positioned within this market.
 
-To explore this, I used a Kaggle dataset containing **340 Michelin-recognised restaurants in London**.
+The objective is to identify competitive dynamics and positioning opportunities within the Mayfair French dining segment.
 
-Using SQL, I analysed:
-- Cuisine distribution  
-- Geographic concentration  
+---
 
-After identifying nearby competitors, I conducted a manual qualitative comparison to better understand positioning differences.
+## 2. Dataset
 
-The goal of this project is to combine structured data analysis and qualitative interpretation to describe our restaurant’s position within the Mayfair French dining landscape.
+* **Source:** Kaggle
+* **Scope:** 340 Michelin-listed restaurants in London
+* **Key fields:** cuisine, rating, price range, location
 
-
-## 2. Dataset Description
-
-- **Source:** Kaggle  
-- **Scope:** 340 Michelin-recognised restaurants in London  
-- **Key columns:**  
-  - Restaurant Name  
-  - Cuisine Type  
-  - Michelin Rating  
-  - Price Range Text  
-  - Latitude  
-  - Longitude  
-
-The dataset is structured and suitable for SQL-based filtering and aggregation.
-
-
+---
 
 ## 3. Study Area Definition
 
-Mayfair was defined using a latitude range between:
+Mayfair was defined using a latitude boundary based on the location of my workplace, enabling identification of restaurants operating within the same competitive zone.
 
+---
 
-This boundary was based on the geographic position of my workplace to capture restaurants operating within the same local environment.
+## 4. SQL Analysis
 
+### 🔍 Key Findings
 
+* Total restaurants: **340**
+* French restaurants: **30 (8.8%)** → niche segment
+* French restaurants in Mayfair: **9**
+* Concentration rate: **30%** → strong clustering in a premium central area
 
-## 4. SQL Analysis & Results
+### 📈 Interpretation
 
-### Key Findings
+French cuisine represents a small but strategically concentrated segment, suggesting that Mayfair functions as a premium hub for French fine dining.
 
-- **Total Michelin restaurants:** 340  
-- **French cuisine restaurants:** 30 (8.8%)  
-- **French restaurants within Mayfair range:** 9  
-- **Concentration rate:** 30% of all French restaurants  
+---
 
-### Within the defined area:
+## 5. Qualitative Framework
 
-- Ratings are mostly **Michelin Plate**, with 1–3 Star restaurants also present.  
-- Price levels are concentrated in **premium tiers**.
+To analyse positioning differences, a structured comparison framework was developed.
 
+### Dimensions
 
+* Spatial Character
+* Chef-Centricity
+* Culinary Maturity
+* Experiential Design
+* Target Diner Profile
 
-## 5. Qualitative Comparison Framework
+This framework was designed to capture both traditional Michelin evaluation signals (e.g. chef identity, culinary prestige) and experiential differentiation factors relevant to modern dining consumers.
 
-After identifying nearby competitors using SQL, I developed a structured comparison framework to analyse positioning differences.
+---
 
-### Five Dimensions Used:
+## 6. Key Insights
 
-- Spatial Character  
-- Chef-Centricity  
-- Culinary Maturity  
-- Experiential Design  
-- Target Diner Profile  
+* French restaurants form a niche but highly competitive segment concentrated in Mayfair
+* The area is dominated by Michelin-level fine dining with strong emphasis on chef identity and culinary prestige
+* This creates a positioning gap for non-Michelin French concepts
 
-Each restaurant was evaluated based on short Michelin-style descriptions and manually summarised into these categories.
+👉 **Competing directly on prestige is less effective than differentiating through accessibility, atmosphere, and social dining experience**
 
-This step is interpretive and intended as a structured comparison rather than a statistical scoring model.
+---
 
+## 7. Limitations
 
+* Qualitative analysis is based on limited descriptive sources
+* Interpretations are manually derived and not statistically validated
 
-## 6. Positioning: Our Restaurant vs Nearby Competitors
+---
 
-The nearby Michelin French restaurants in Mayfair largely emphasise:
+## 🔗 Project Files
 
-- Chef identity  
-- Culinary prestige  
-- Premium positioning  
+* SQL queries: `/sql/analysis.sql`
+* Dataset: `/data/michelin_london.csv`
 
-In contrast, our restaurant:
-
-- Operates outside the Michelin-rated segment  
-- Positions itself as contemporary and socially driven  
-- Focuses on atmosphere, accessibility, and shareable dining experience  
+---
 
 
 
